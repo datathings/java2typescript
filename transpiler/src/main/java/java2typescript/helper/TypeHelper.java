@@ -136,6 +136,8 @@ public class TypeHelper {
             return "Float64Array";
         } else if (type.toString().contains("byte[]")) {
             return "Int8Array";
+        } else if(type.toString().contains("boolean[]")) {
+            return "Array<boolean>";
         }
         return null;
     }

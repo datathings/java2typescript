@@ -32,7 +32,7 @@ export class DoubleArray {
         }
       }
     };
-    let _back_colors: boolean[] = [];
+    let _back_colors: Array<boolean> = new Array<boolean>(10);
   }
   public sortTest(): void {
     let arr: Int32Array = new Int32Array([0, 1, 2, 3, 4]);
